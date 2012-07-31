@@ -31,7 +31,7 @@ hi DiffText             guibg=#6959cd ctermbg=62
 hi ErrorMsg             guifg=#D8D8D8 ctermfg=188 guibg=#ff0000 ctermbg=9
 hi VertSplit            guifg=#323232 ctermfg=236 guibg=#f0e68c ctermbg=222
 hi Folded               guifg=#999999 ctermfg=246 guibg=#444444 ctermbg=238
-hi FoldColumn           guifg=#000000 ctermfg=0 guibg=#bdb76b ctermbg=143
+hi FoldColumn           guifg=#dadada guibg=#666666 ctermfg=253 ctermbg=242
 hi SignColumn           guifg=#bdb76b ctermfg=143 guibg=#20b2aa ctermbg=37
 hi IncSearch            guifg=#000000 ctermfg=0 guibg=#D8D8D8 ctermbg=188
 hi LineNr               guifg=#888888 ctermfg=102
@@ -65,7 +65,8 @@ hi Constant             guifg=#6C99BB ctermfg=67 gui=NONE
 hi Identifier           guifg=#B7DFF8 ctermfg=153
     hi Function         guifg=#FFF980 ctermfg=228
 
-hi Statement            guifg=#FFC66D ctermfg=221
+" hi Statement            guifg=#FFC66D ctermfg=221
+hi Statement            guifg=#FFC66D ctermfg=173
     hi Conditional      guifg=#CC7833 ctermfg=173
     hi Repeat           guifg=#CC7833 ctermfg=173
     hi Label            guifg=#CC7833 ctermfg=173
@@ -79,7 +80,7 @@ hi PreProc              guifg=#CC7833 ctermfg=173
     hi Macro            guifg=#CC7833 ctermfg=173
     hi PreCondit        guifg=#CC7833 ctermfg=173
 
-hi Type                 guifg=#FFF980 ctermfg=228 gui=NONE
+hi Type                 guifg=#FFF980 ctermfg=221 gui=NONE
     hi StorageClass     guifg=#FFF980 ctermfg=228
     hi Structure        guifg=#FFF980 ctermfg=228
 
@@ -113,6 +114,24 @@ hi rubyRailsMethod      guifg=#B83426 ctermfg=130
 hi rubyStringDelimiter  guifg=#A5C261 ctermfg=143
 hi rubyControl          guifg=#CC7833 ctermfg=173
 hi rubyIdentifier       guifg=#B7DFF8 ctermfg=153
+hi rubyInclude          guifg=#CC7833 ctermfg=173
+hi rubyMethodDeclaration guifg=#FFF980 ctermfg=221
+hi rubyClassDeclaration guifg=#FFF980 ctermfg=221
+hi rubyClass            guifg=#CC7833 ctermfg=173
+hi rubyFunction         guifg=#FFF980 ctermfg=221
+hi rubySymbol           guifg=#6C99BB ctermfg=67
+" hi rubyOperator         ctermfg=NONE
+hi rubyConstant         guifg=#FFF980 ctermfg=221
+" hi rubyGlobalVariable ctermfg=NONE
+" hi rubyKeyword          ctermfg=NONE
+hi rubySharpBang        guifg=#FFFFFF ctermfg=15
+" hi rubyConditionalModifier ctermfg=NONE
+" hi rubyConditional       ctermfg=NONE
+hi rubyBlockParameter   ctermfg=NONE
+hi rubyAttribute        ctermfg=NONE
+hi rubyData             ctermfg=NONE
+hi rubyRegexpDot        ctermfg=NONE
+
 hi link rubyAccess Keyword
 hi link rubyAttribute Keyword
 hi link rubyBeginEnd Keyword
