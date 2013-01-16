@@ -37,13 +37,11 @@ hi IncSearch            guifg=#000000 ctermfg=0 guibg=#D8D8D8 ctermbg=188
 hi LineNr               guifg=#888888 ctermfg=102
 hi MatchParen           guifg=#FFFFFF ctermfg=15 guibg=#666666 ctermbg=241 gui=bold
 hi ModeMsg              gui=NONE
-" hi MoreMsg              guifg=#20b2aa ctermfg=37
 hi MoreMsg              guifg=#CC7833 ctermfg=173
 hi NonText              guifg=#D8D8D8 ctermfg=188
 hi Normal               guibg=#282828 ctermbg=235 guifg=#D8D8D8 ctermfg=188
 hi Question             guifg=#ff6347 ctermfg=203
 hi Search               guifg=#000000 ctermfg=0 guibg=#ffd700 ctermbg=220
-" hi SpecialKey           guifg=#00ffff ctermfg=14
 hi SpecialKey           guifg=#6C99BB ctermfg=67
 hi StatusLine           guifg=#666666 ctermfg=241 guibg=#d8d8d8 ctermbg=188
 hi StatusLineNC         guifg=#b8b8b8 ctermfg=250 guibg=#444444 ctermbg=238
